@@ -176,6 +176,15 @@ def make_chat(tokenizer, system, user):
     )
 
 
+def make_chat_prefill_no_think(tokenizer, system, user):
+    rendered = tokenizer.apply_chat_template(
+        [{"role": "system", "content": system}, {"role": "user", "content": user}],
+        tokenize=False,
+        add_generation_prompt=False,
+    )
+    return rendered + "<|im_start|>assistant\n<think>\n</think>\n\n"
+
+
 def extract_all_boxed(text):
     return re.findall(r"\\boxed\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}", text)
 
@@ -329,6 +338,9 @@ def main():
         {"name": "direct_nothink_greedy_1", "builder": "direct_nothink", "samples": 1, "params": params_greedy},
         {"name": "slot_nothink_greedy_1", "builder": "slot_nothink", "samples": 1, "params": params_greedy},
         {"name": "strict_greedy_1", "builder": "strict", "samples": 1, "params": params_greedy},
+        {"name": "orig_prefill_greedy_1", "builder": "orig", "samples": 1, "params": params_greedy, "prefill_no_think": True},
+        {"name": "direct_prefill_greedy_1", "builder": "direct", "samples": 1, "params": params_greedy, "prefill_no_think": True},
+        {"name": "slot_prefill_greedy_1", "builder": "slot", "samples": 1, "params": params_greedy, "prefill_no_think": True},
     ]
     requested = {name.strip() for name in args.variants.split(",") if name.strip()}
     variants = [variant for variant in variants if variant["name"] in requested]
@@ -342,7 +354,10 @@ def main():
         for item in data:
             system, user = builder(item)
             for sample_idx in range(variant["samples"]):
-                prompts.append(make_chat(tokenizer, system, user))
+                if variant.get("prefill_no_think"):
+                    prompts.append(make_chat_prefill_no_think(tokenizer, system, user))
+                else:
+                    prompts.append(make_chat(tokenizer, system, user))
                 prompt_items.append((item, sample_idx))
 
         print(f"\nRunning {variant['name']} with {len(prompts)} prompts...")

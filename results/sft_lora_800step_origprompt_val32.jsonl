@@ -1,0 +1,32 @@
+{"id": 14, "is_mcq": true, "gold": "F", "raw_response": "\\boxed{C}", "raw_candidates": ["\\boxed{C}"], "response": "\\boxed{C}", "correct": false}
+{"id": 24, "is_mcq": true, "gold": "A", "raw_response": "\\boxed{C}", "raw_candidates": ["\\boxed{C}"], "response": "\\boxed{C}", "correct": false}
+{"id": 42, "is_mcq": true, "gold": "J", "raw_response": "\\boxed{C}", "raw_candidates": ["\\boxed{C}"], "response": "\\boxed{C}", "correct": false}
+{"id": 54, "is_mcq": true, "gold": "F", "raw_response": "\\boxed{H}", "raw_candidates": ["\\boxed{H}"], "response": "\\boxed{H}", "correct": false}
+{"id": 63, "is_mcq": true, "gold": "I", "raw_response": "\\boxed{I}", "raw_candidates": ["\\boxed{I}"], "response": "\\boxed{I}", "correct": true}
+{"id": 70, "is_mcq": false, "gold": ["4.64257581030492"], "raw_response": "\\boxed{4.63647609000807}", "raw_candidates": ["\\boxed{4.63647609000807}"], "response": "\\boxed{4.63647609000807}", "correct": false}
+{"id": 72, "is_mcq": false, "gold": ["190", "250"], "raw_response": "\\boxed{190, 250}", "raw_candidates": ["\\boxed{190, 250}"], "response": "\\boxed{190, 250}", "correct": true}
+{"id": 73, "is_mcq": true, "gold": "H", "raw_response": "\\boxed{H}", "raw_candidates": ["\\boxed{H}"], "response": "\\boxed{H}", "correct": true}
+{"id": 80, "is_mcq": false, "gold": ["A"], "raw_response": "\\boxed{A}", "raw_candidates": ["\\boxed{A}"], "response": "\\boxed{A}", "correct": true}
+{"id": 90, "is_mcq": true, "gold": "F", "raw_response": "\\boxed{D}", "raw_candidates": ["\\boxed{D}"], "response": "\\boxed{D}", "correct": false}
+{"id": 91, "is_mcq": true, "gold": "G", "raw_response": "\\boxed{F}", "raw_candidates": ["\\boxed{F}"], "response": "\\boxed{F}", "correct": false}
+{"id": 95, "is_mcq": true, "gold": "H", "raw_response": "\\boxed{C}", "raw_candidates": ["\\boxed{C}"], "response": "\\boxed{C}", "correct": false}
+{"id": 102, "is_mcq": false, "gold": ["6*10^6"], "raw_response": "\\boxed{6E+06}", "raw_candidates": ["\\boxed{6E+06}"], "response": "\\boxed{6E+06}", "correct": false}
+{"id": 111, "is_mcq": false, "gold": ["stretched", "8", "compressed", "0.125", "(-16,-3)"], "raw_response": "\\boxed{stretched, 8, compressed, 8, (-128, -24)}", "raw_candidates": ["\\boxed{stretched, 8, compressed, 8, (-128, -24)}"], "response": "\\boxed{stretched, 8, compressed, 8, (-128, -24)}", "correct": false}
+{"id": 121, "is_mcq": true, "gold": "H", "raw_response": "\\boxed{G}", "raw_candidates": ["\\boxed{G}"], "response": "\\boxed{G}", "correct": false}
+{"id": 125, "is_mcq": false, "gold": ["12.3941512253475"], "raw_response": "\\boxed{121}", "raw_candidates": ["\\boxed{121}"], "response": "\\boxed{121}", "correct": false}
+{"id": 131, "is_mcq": true, "gold": "J", "raw_response": "\\boxed{C}", "raw_candidates": ["\\boxed{C}"], "response": "\\boxed{C}", "correct": false}
+{"id": 196, "is_mcq": false, "gold": ["68", "340"], "raw_response": "\\boxed{68, 340}", "raw_candidates": ["\\boxed{68, 340}"], "response": "\\boxed{68, 340}", "correct": true}
+{"id": 208, "is_mcq": false, "gold": ["(0.523599, 2.61799)"], "raw_response": "\\boxed{(0.523598775598299, 2.61799387799149)}", "raw_candidates": ["\\boxed{(0.523598775598299, 2.61799387799149)}"], "response": "\\boxed{(0.523598775598299, 2.61799387799149)}", "correct": false}
+{"id": 218, "is_mcq": false, "gold": ["572.00"], "raw_response": "\\boxed{572}", "raw_candidates": ["\\boxed{572}"], "response": "\\boxed{572}", "correct": true}
+{"id": 240, "is_mcq": false, "gold": ["T", "F", "F", "T"], "raw_response": "\\boxed{F, F, T, T}", "raw_candidates": ["\\boxed{F, F, T, T}"], "response": "\\boxed{F, F, T, T}", "correct": false}
+{"id": 249, "is_mcq": false, "gold": ["12.17"], "raw_response": "\\boxed{10.7742}", "raw_candidates": ["\\boxed{10.7742}"], "response": "\\boxed{10.7742}", "correct": false}
+{"id": 251, "is_mcq": true, "gold": "J", "raw_response": "\\boxed{E}", "raw_candidates": ["\\boxed{E}"], "response": "\\boxed{E}", "correct": false}
+{"id": 253, "is_mcq": true, "gold": "F", "raw_response": "\\boxed{J}", "raw_candidates": ["\\boxed{J}"], "response": "\\boxed{J}", "correct": false}
+{"id": 266, "is_mcq": true, "gold": "A", "raw_response": "\\boxed{F}", "raw_candidates": ["\\boxed{F}"], "response": "\\boxed{F}", "correct": false}
+{"id": 281, "is_mcq": true, "gold": "E", "raw_response": "\\boxed{E}", "raw_candidates": ["\\boxed{E}"], "response": "\\boxed{E}", "correct": true}
+{"id": 282, "is_mcq": true, "gold": "B", "raw_response": "\\boxed{I}", "raw_candidates": ["\\boxed{I}"], "response": "\\boxed{I}", "correct": false}
+{"id": 310, "is_mcq": true, "gold": "C", "raw_response": "\\boxed{I}", "raw_candidates": ["\\boxed{I}"], "response": "\\boxed{I}", "correct": false}
+{"id": 317, "is_mcq": false, "gold": ["(32/8) - ( 49/8)*x"], "raw_response": "\\boxed{8/(49/((1/8)*sqrt(49^2 + 8^2))+tan(theta))}", "raw_candidates": ["\\boxed{8/(49/((1/8)*sqrt(49^2 + 8^2))+tan(theta))}"], "response": "\\boxed{8/(49/((1/8)*sqrt(49^2 + 8^2))+tan(theta))}", "correct": false}
+{"id": 337, "is_mcq": false, "gold": ["F", "F", "C"], "raw_response": "\\boxed{F, F, C}", "raw_candidates": ["\\boxed{F, F, C}"], "response": "\\boxed{F, F, C}", "correct": true}
+{"id": 339, "is_mcq": false, "gold": ["-sqrt(3)", "1/sqrt(3)", "1", "-2", "2/sqrt(3)"], "raw_response": "\\boxed{-1.73205080756888, -0.577350269189626, 1.41421356237309, -1.73205080756888, 1.15470053837925}", "raw_candidates": ["\\boxed{-1.73205080756888, -0.577350269189626, 1.41421356237309, -1.73205080756888, 1.15470053837925}"], "response": "\\boxed{-1.73205080756888, -0.577350269189626, 1.41421356237309, -1.73205080756888, 1.15470053837925}", "correct": false}
+{"id": 342, "is_mcq": true, "gold": "A", "raw_response": "\\boxed{F}", "raw_candidates": ["\\boxed{F}"], "response": "\\boxed{F}", "correct": false}
