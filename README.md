@@ -23,9 +23,8 @@ This repository contains the final reproducible inference pipeline for the CSE 1
   - `top_k=20`
   - `min_p=0.0`
   - `repetition_penalty=1.0`
-- Measured runtime: a resumed private-set run processed 799 remaining items in `7:00:39` wall clock and produced 943 total rows.
-- Approximate clean full private-set runtime at the same settings: `8.2` to `8.4` hours, with normal generation variance.
-
+- Measured runtime: `7:00:39`for the produced 943 total rows.
+- 
 To measure the runtime of a clean run:
 
 ```bash
